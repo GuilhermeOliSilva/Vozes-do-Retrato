@@ -1,0 +1,274 @@
+@import url("reset.css");
+
+/*Header*/
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(70deg,#e7e1e1 70%, #e7e1e1);
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: inline-block;
+    border-bottom: 2px solid #070606;
+    font-size: 40px;
+    font-family: Mohave;
+    color: #070606;
+}
+
+audio {
+    width: 500px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.conteudo_lista {
+    display: inline-block;
+    font-size: 22px;
+    font-family: Mohave;
+    color: #070606;
+    padding: 0 20px;
+}
+
+.principal {
+    border-right: 2.4px solid #070606;
+}
+
+.link_dentro{
+    color: #070606;
+    text-decoration: none;
+}
+
+.link_dentro:hover {
+    font-size: 22.7px;
+    border-bottom: 2px solid #070606;
+}
+
+/*Conteúdo*/
+main { 
+    padding: 20px 100px;
+    background-color: #aa98b9;
+}
+
+.content {
+    width: 100%;
+    height: 520px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+.bar {
+    width: 100px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+.image1 {
+    background-image: url("https://media.gazetadopovo.com.br/2015/06/1d868b91d2c85fb68f50778b0b929374-gpLarge.jpg");
+    background: cover;
+    background-position: center;
+}
+
+.titulo_destaque {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+    margin-top: 220px;
+}
+
+.destaque_ancora {
+    color: #e7e1e1;
+    text-decoration: none;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide2::marker {/* procurar soluções para o marcador permanente quando clico na bolinha*/
+    background: #fff;
+    scale: 1.1;
+}
+
+.image2 {
+    background-image: url("https://cdn.discordapp.com/attachments/891127150810378301/908493255962947604/images.png");
+    background: cover;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+.image3 {
+    background-image: url("https://cdn.discordapp.com/attachments/891127150810378301/908492011101896754/Z.png");
+    background: cover;
+    background-position: center;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+.image4 {
+    background-image: url("https://cdn.discordapp.com/attachments/891127150810378301/908492371124191262/Z.png");
+    background: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+.image5 {
+    background-image: url("https://cdn.discordapp.com/attachments/891127150810378301/908492979273101352/images.png");
+    background: cover;
+    background-position: center;
+}
+
+.Contos1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amem {
+    padding-left: 170px;
+}
+
+.ancora_cartao {
+    color: black;
+    text-decoration: none;
+}
+
+.DAR1O {
+    padding-right: 20px;
+}
+
+.ancora_cartao:active {
+    color: black;
+}
+
+.cartao_conto {
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #070606;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.Luisao {
+    height: 100px;
+}
+
+.cartao_conto:hover {
+    border: 2px solid #701cb4;
+}
+
+.cartao_conto:hover .titulo{
+    font-size: 35px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.conteudo_cartao {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 17px;
+    padding: 0 10px;
+    padding-bottom: 5px;
+}
+
+.Frase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_frase {
+    padding-top: 30px;
+}
+
+.imagem_frase {
+    width: 100px;
+    height: 100px;
+    padding-left: 220px;
+}
+
+.frase {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+}
+
+.teste {
+    width: 525px;
+}
+
+/*Rodapé*/
+footer {
+    padding: 40px 100px;
+    background-color: #161313;
+}
+
+.grupo {
+    color: #fff;
+}
+
+.nome_grupo {
+    font-size: 17px;
+}

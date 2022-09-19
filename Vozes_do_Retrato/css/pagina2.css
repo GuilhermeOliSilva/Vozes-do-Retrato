@@ -1,0 +1,104 @@
+@import url("reset.css");
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(70deg,#e7e1e1 70%, #e7e1e1);
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: inline-block;
+    border-bottom: 2px solid #070606;
+    font-size: 40px;
+    font-family: Mohave;
+    color: #070606;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+audio {
+    width: 500px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.conteudo_lista {
+    display: inline-block;
+    font-size: 22px;
+    font-family: Mohave;
+    color: #070606;
+    padding: 0 20px;
+}
+
+.principal {
+    border-right: 2.4px solid #070606;
+}
+
+.link_dentro{
+    color: #070606;
+    text-decoration: none;
+}
+
+.link_dentro:hover {
+    font-size: 22.7px;
+    border-bottom: 2px solid #070606;
+}
+
+/*conteudo*/
+.corpo { 
+    padding: 20px 100px;
+    background-color: #aa98b9;
+}
+
+.conteudo {
+    background-color: #fff;
+    width: 100%;
+    height: 670px;
+}
+
+.biografia {
+    height: 500px;
+}
+
+.analise {
+    height: 550px;
+}
+
+.Maria {
+    height: 150px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+/*Rodapé*/
+footer {
+    padding: 40px 100px;
+    background-color: #161313;
+}
+
+.grupo {
+    color: #fff;
+}
+
+.nome_grupo {
+    font-size: 17px;
+}
